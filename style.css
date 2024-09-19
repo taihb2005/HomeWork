@@ -1,0 +1,144 @@
+*{
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+}
+
+h2{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 400;
+    color: #6F7CB2;
+}
+
+.column{
+    flex: 33.33%;
+
+    height:60px;
+
+
+}
+
+.column1_navbar > div{
+    justify-content: space-between;
+
+    padding: 18px;
+
+    color: #505F98;
+    text-align: center;
+    font-size:14px;
+
+}
+
+.column2_navbar{    
+    text-align: center; 
+    font-size: 26px;
+    line-height: 38px;
+
+}
+
+.column3_navbar{
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.hero-image {
+    background-image: url("pic/designer_1.svg");
+    height: 1191px;
+    min-width: 75%;
+
+    background-size: 75% 1191px;
+
+    background-position: top right;
+    background-repeat: no-repeat;
+
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text{
+    width:539px;
+    height:421px;
+    margin: 165px;
+
+}
+
+button.hero-button{
+    width: 189px;
+    height: 36px;  
+    margin-right: 20px;
+    background: #111B47;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+.section2{
+    padding-top:160px;
+    padding-bottom:160px;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pic/Rectangle_resized_for_computer.svg");
+    background-repeat: no-repeat;
+
+    overflow-x: hidden;
+
+
+    width: 100%;
+    height: 938px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('pic/footer.svg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+
+    overflow-x: hidden;
+
+    width: 100%;
+    height: 216px;
+    padding: 0px;
+}
+
+.footer_container{
+    display:flex;
+    flex-direction: row;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #CDD1D4;
+
+    width: 78%;
+    align-items:  center;
+}
+
+.icon{
+    display:flex;
+    flex-direction: row;
+
+    margin: 30px;
+}
